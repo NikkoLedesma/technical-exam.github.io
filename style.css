@@ -1,0 +1,82 @@
+/* Update your existing CSS with the following additions */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Add a background color for a clean look */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Primary color for headings */
+}
+
+/* Style form inputs and buttons */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 30%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Responsive table styling */
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Add subtle animation on hover for buttons */
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+/* Add media queries for responsive design */
+@media (max-width: 767px) {
+    .container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    /* Responsive table adjustments */
+    .table th, .table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
